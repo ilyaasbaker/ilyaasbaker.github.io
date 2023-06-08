@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+* {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+html, body {
+    
+    overflow-x: hidden;
+}
+
+/* Page 1 Home */
+
+.nav{
+    
+    margin-bottom: 50px;
+    width: 90%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#navigation {
+    
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+/* wanted to add effects to my nav, I designed it to be simplistic in every way, adding the hover effects gave it a little "sauce" if i do say so myself*/
+
+#navigation:hover {
+    
+    color: maroon;
+    font-size: 100%;
+}
+
+#navigation:link {
+    
+    color: black;
+}
+
+
+#navigation:active {
+    
+    color: red;
+}
+
+/*For this page i just wanted to add images as an introduction, to make it intriguing i add a blur so that visitors would be inclined to hover over them, doing so would clear up the image*/
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 15px;
+}
+
+.column {
+    
+    flex: 15%;
+    max-width: 30%;
+    padding: 0 4px; 
+}
+
+.column img {
+    
+    margin-top: 5px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.home { 
+
+    width: 75%;
+    filter: blur(3px);
+}
+
+.home:hover {
+    
+   filter:blur(0px);
+}
+
+/*theres not much going on on this page, i add the back to top button as way to indictate that there are other pages to view*/
+
+#topbtn {
+    
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.button {
+    
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Page 2 Projects */
+
+.music {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 300px;
+    margin: 50px;
+    
+}
+
+#description {
+    
+    text-align: Center;
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 15px;
+    padding: 20px;
+    
+}
+  
+.video {
+    
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    align-content: center;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+
+.hmdvid {
+    
+    width: 560px;
+    height: 315px;
+    
+}
+
+iframe {
+    
+    padding: 10px;
+}
+
+.designimgs {
+    
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    align-content: center;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+
+.hmddesignimg {
+    
+    width: 50%;
+    min-width: 300px;
+}
+
+
+.cad {
+    
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    align-content: center;
+    justify-content: space-between;
+    margin: 50px;
+    
+}
+
+.cadimg {
+    
+    width: 50%;
+    padding: 5px;
+    min-width: 300px;
+    
+}
+
+/* Page 3 Gallery */
+
+/* 2019 */
+
+
+.nineteen {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-x: scroll;
+    min-width: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+  
+}
+
+.nineteenimg {
+    
+    min-width: 200px;
+    padding: 3px;
+
+}
+
+
+.nineteentxt {
+    
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 10px;
+}
+
+/* 2020 */
+
+
+.twenty {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-x: scroll;
+    min-width: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.twentyimg {
+    
+     min-width: 200px;
+    padding: 3px;
+}
+
+.twentytxt {
+    
+    margin: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 10px;
+}
+
+/* 2021 */
+
+
+.twentyone {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-x: scroll;
+    min-width: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.twentyoneimg {
+    
+     min-width: 200px;
+    padding: 3px;
+}
+
+.twentyonetxt {
+    
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 10px;
+}
+
+/* 2022 */
+
+
+.twentytwo {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-x: scroll;
+    min-width: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.twentytwoimg {
+    
+    min-width: 200px;
+    padding: 3px;
+}
+
+.twentytwotxt {
+    
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 10px;
+}
+
+/* Page 5 */
+
+
+.future {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-x: scroll;
+    min-width: 300px;
+    margin: 50px;
+  
+}
+
+
+.futurerow {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-width: 300px;
+}
+
+
+.futureimg {
+    
+    min-width: 300px;
+}
+
+
+.futuretxt2 {
+    
+    text-align: center;
+    text-decoration-color: black;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+.futuretxt {
+    
+    padding: 30px;
+    margin-top: 15px;
+}
+
+
